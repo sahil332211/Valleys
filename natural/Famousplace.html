@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himachal valleys</title>
+  <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+
+  <!-- headewr partt -->
+
+  <header class="sticky top-0 z-40 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80 transition-all ">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <div
+          class="font-serif text-2xl font-bold tracking-tight bg-gradient-to-r from-white via-slate-100 to-emerald-300 bg-clip-text text-transparent animate-bounce">
+          Himachal<span
+            class="text-emerald-400 font-sans text-sm font-semibold tracking-wider ml-1 uppercase">Tracker</span>
+          <p class="text-[11px] text-emerald-400/80 font-medium tracking-wide">Devbhoomi Vibe Explorer</p>
+        </div>
+        <nav class="hidden md:flex  items-center gap-1 bg-slate-900 p-1.5 rounded-full border border-slate-800">
+          <a href="index.html"
+            class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-emerald-300  hover:border border-emerald-500/30 hover:bg-emerald-700/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
+            Home
+          </a>
+          <a href="Famousplace.html"
+            class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 bg-emerald-500/30 hover:text-emerald-300  hover:border border-emerald-500/30  hover:bg-emerald-700/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
+            All Famous Places
+          </a>
+          <a href="Dailhousie&khajjiar.html"
+            class="px-5 py-2 rounded-full text-sm font-medium text-slate-300  hover:text-emerald-300  hover:border border-emerald-500/30  hover:bg-emerald-700/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
+            <span> Dalhousie & Khajjiar</span>
+          </a>
+          <a href="guidelines.html"
+            class="px-5 py-2 rounded-full text-sm font-medium text-slate-300  hover:text-emerald-300  hover:border border-emerald-500/30  hover:bg-emerald-700/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
+            Guidelines & Safety
+          </a>
+        </nav>
+
+          <button id="mobile-menu-btn" class="md:hidden p-2 rounded-xl bg-slate-900 text-slate-300 border border-slate-800 hover:text-white">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+          </svg>
+        </button>
+        
+      </div>
+    </div>
+    
+             <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class=" md:hidden bg-slate-950/95 border-b border-slate-800 px-6 py-4 space-y-3">
+      <a href="index.html" class="block py-2 text-slate-300 hover:text-white border-b border-slate-900">Home & Tour Tracker</a>
+      <a href="Famousplace.html" class="block py-2 text-slate-300 hover:text-white border-b border-slate-900">All Famous Places</a>
+      <a href="Dailhousie&khajjiar.html" class="block py-2 text-emerald-400 font-semibold border-b border-slate-900">Dalhousie & Khajjiar</a>
+      <a href="guidelines.html" class="block py-2 text-slate-300 hover:text-white">Guidelines & Travel Advisory</a>
+    </div>
+
+  </header>
+
+  <!-- famous places  -->
+
+  <section class="py-24 bg-gradient-to-b from-slate-900 to-slate-950 border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  ">
+
+      <div class="text-center max-w-3xl mx-auto space-y-7">
+        <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">The Complete Catalog</span>
+        <h1 class="font-serif text-3xl sm:text-5xl font-extrabold text-white mt-2 space-y-7  ">
+          Famous Places in Himachal Pradesh
+        </h1>
+        <p class="text-slate-300 text-sm sm:text-base mt-3 leading-relaxed space-y-7">
+          From lush pine sanctuaries and high cold deserts to spiritual river valleys. Filter by mood, search by
+          district, and track your lifetime memories.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- cards wala boxes -->
+
+
+  <section class="py-16 bg-slate-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- The Cards Grid -->
+
+      <div  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Card box 1: dalhousie -->
+        <div
+          class="place-card bg-slate-900/80 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-600 hover:shadow-2xl transition-all duration-300 scale-100 flex flex-col justify-between hover:cursor-pointer">
+          <div>
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=800&q=80"
+                alt="Dalhousie" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              <div class="absolute bottom-3 left-4">
+                <h3 class="font-serif text-2xl font-bold text-white">Dalhousie</h3>
+                <p class="text-xs text-emerald-300 font-medium">Victorian Serenity & Pine Aromatherapy</p>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-4">
+              <p class="text-slate-300 text-xs leading-relaxed">
+                Spread across five forested hills. Celebrated for Victorian architecture, tranquil Bakrota strolls, the
+                high singing winds of Dainkund Peak, and Subhash Baoli natural spring.
+              </p>
+
+              <div class="space-y-1.5">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Key Highlights</span>
+                <div class="flex flex-wrap gap-1 text-[11px] text-slate-300">
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Dainkund Peak</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Subhash Baoli</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">St. John Church</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Bakrota Round</span>
+                </div>
+              </div>
+
+              <div
+                class="flex justify-between items-center text-[11px] text-slate-400 pt-2 border-t border-slate-800/80">
+                <span>Best: Mar - Jun & Dec - Feb</span>
+                <span class="text-emerald-400 font-semibold">Peaceful Vibe</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Card 2: khajiar -->
+
+        <div
+          class="place-card bg-slate-900/80 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between hover:cursor-pointer"
+          data-category="nature" data-keywords="khajjiar chamba mini switzerland lake meadow kalatop cedar deodar">
+          <div>
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=800&q=80"
+                alt="Khajjiar" class="w-full h-full object-cover transition-all duration-300 ease-out">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              <div class="absolute bottom-3 left-4">
+                <h3 class="font-serif text-2xl font-bold text-white">Khajjiar</h3>
+                <p class="text-xs text-cyan-300 font-medium">The Mini Switzerland of India</p>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-4">
+              <p class="text-slate-300 text-xs leading-relaxed">
+                A breathtaking saucer meadow enclosed by dense deodar forests. Features a sacred central lake with a
+                floating island, ancient 12th-c Khajji Nag wooden temple, and Kalatop sanctuary trails.
+              </p>
+
+              <div class="space-y-1.5">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Key Highlights</span>
+                <div class="flex flex-wrap gap-1 text-[11px] text-slate-300">
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Khajjiar Lake</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Kalatop Wildlife</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Khajji Nag Temple</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Zorbing Glade</span>
+                </div>
+              </div>
+
+              <div
+                class="flex justify-between items-center text-[11px] text-slate-400 pt-2 border-t border-slate-800/80">
+                <span>Best: All Year (Green / Snow)</span>
+                <span class="text-cyan-400 font-semibold">Alpine Meadow Vibe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3: manali & solang -->
+
+        <div id="manali"
+          class="place-card bg-slate-900/80 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between hover:cursor-pointer"
+          data-category="adventure"
+          data-keywords="manali solang kullu rohtang atal tunnel snow ski cafes hadimba jogini">
+          <div>
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1593181629936-11c609b8db9b?auto=format&fit=crop&w=800&q=80"
+                alt="Manali" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              <div class="absolute bottom-3 left-4">
+                <h3 class="font-serif text-2xl font-bold text-white">Manali & Solang</h3>
+                <p class="text-xs text-emerald-300 font-medium">Valley of Gods & Alpine Thrills</p>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-4">
+              <p class="text-slate-300 text-xs leading-relaxed">
+                Nestled on the Beas River, Manali is Himachal's premier hub for adventure sports, snow activities in
+                Solang Valley, the engineering marvel Atal Tunnel, and Old Manali's bohemian cafes.
+              </p>
+
+              <div class="space-y-1.5">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Key Highlights</span>
+                <div class="flex flex-wrap gap-1 text-[11px] text-slate-300">
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Solang Valley</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Atal Tunnel</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Hadimba Temple</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Jogini Falls</span>
+                </div>
+              </div>
+
+              <div
+                class="flex justify-between items-center text-[11px] text-slate-400 pt-2 border-t border-slate-800/80">
+                <span>Best: Oct - Jun</span>
+                <span class="text-emerald-400 font-semibold">Snow & Adventure</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 4: dharmshala & mcleodganj -->
+        <div id="dharamshala"
+          class="place-card bg-slate-900/80 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between hover:cursor-pointer"
+          data-category="spiritual"
+          data-keywords="dharamshala mcleodganj kangra dalai lama tibetan monastery triund dhauladhar">
+          <div>
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=800&q=80"
+                alt="Dharamshala" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              <div class="absolute bottom-3 left-4">
+                <h3 class="font-serif text-2xl font-bold text-white">Dharamshala & McLeodganj</h3>
+                <p class="text-xs text-rose-300 font-medium">Tibetan Spirituality & Dhauladhar Ridges</p>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-4">
+              <p class="text-slate-300 text-xs leading-relaxed">
+                Known as Little Lhasa, residence of the 14th Dalai Lama. Fluttering Tibetan prayer flags, Tsuglagkhang
+                monastery complex, sacred Bhagsunag falls, and the famous Triund ridge trek.
+              </p>
+
+              <div class="space-y-1.5">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Key Highlights</span>
+                <div class="flex flex-wrap gap-1 text-[11px] text-slate-300">
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Dalai Lama Temple</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Triund Trek</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Bhagsu Waterfall</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Norbulingka</span>
+                </div>
+              </div>
+
+              <div
+                class="flex justify-between items-center text-[11px] text-slate-400 pt-2 border-t border-slate-800/80">
+                <span>Best: Sep - Jun</span>
+                <span class="text-rose-400 font-semibold">Spiritual & Trekking</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 5: spiti  valley  -->
+        <div id="spiti"
+          class="place-card bg-slate-900/80 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between hover:cursor-pointer"
+          data-category="adventure"
+          data-keywords="spiti kaza chandratal key monastery tabo dhankar cold desert stargazing">
+          <div>
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&w=800&q=80"
+                alt="Spiti Valley" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              <div class="absolute bottom-3 left-4">
+                <h3 class="font-serif text-2xl font-bold text-white">Spiti Valley</h3>
+                <p class="text-xs text-cyan-300 font-medium">The Mystical Cold Desert of Monasteries</p>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-4">
+              <p class="text-slate-300 text-xs leading-relaxed">
+                Raw, barren geological grandeur sandwiched between Tibet and India. Home to the thousand-year-old
+                cliffside Key Monastery, high-altitude Chandratal Lake, and crystal clear night skies.
+              </p>
+
+              <div class="space-y-1.5">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Key Highlights</span>
+                <div class="flex flex-wrap gap-1 text-[11px] text-slate-300">
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Key Gompa</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Chandratal Lake</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Komic Post Office</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Dhankar Monastery</span>
+                </div>
+              </div>
+
+              <div
+                class="flex justify-between items-center text-[11px] text-slate-400 pt-2 border-t border-slate-800/80">
+                <span>Best: Jun - Oct</span>
+                <span class="text-cyan-400 font-semibold">High Altitude Expedition</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 6: shimla & kufri -->
+
+        <div id="shimla"
+          class="place-card bg-slate-900/80 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between hover:cursor-pointer"
+          data-category="peaceful" data-keywords="shimla kufri ridge mall road christ church toy train jakhoo heritage">
+          <div>
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=800&q=80"
+                alt="Shimla" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div> 
+              <div class="absolute bottom-3 left-4">
+                <h3 class="font-serif text-2xl font-bold text-white">Shimla & Kufri</h3>
+                <p class="text-xs text-emerald-300 font-medium">Queen of Hills & Heritage Toy Train</p>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-4">
+              <p class="text-slate-300 text-xs leading-relaxed">
+                The historic summer capital of British India. Famous for the UNESCO-inscribed Kalka-Shimla mountain
+                railway, vibrant Ridge promenade, neo-Gothic Christ Church, and snowy pine slopes of Kufri.
+              </p>
+
+              <div class="space-y-1.5">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Key Highlights</span>
+                <div class="flex flex-wrap gap-1 text-[11px] text-slate-300">
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">The Ridge</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Mall Road</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Jakhoo Temple</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Toy Train</span>
+                </div>
+              </div>
+
+              <div
+                class="flex justify-between items-center text-[11px] text-slate-400 pt-2 border-t border-slate-800/80">
+                <span>Best: Year-round</span>
+                <span class="text-emerald-400 font-semibold">Heritage & Family</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 7: kasol & parvati vall -->
+
+        <div id="kasol"
+          class="place-card bg-slate-900/80 border border-slate-800 rounded-3xl overflow-hidden hover:border-amber-500 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between hover:cursor-pointer"
+          data-category="nature" data-keywords="kasol tosh kheerganga parvati valley manikaran chalal trek riverside">
+          <div>
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+                alt="Kasol" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              <div class="absolute bottom-3 left-4">
+                <h3 class="font-serif text-2xl font-bold text-white">Kasol & Parvati Valley</h3>
+                <p class="text-xs text-amber-300 font-medium">Hippie Trails & Rushing River Magic</p>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-4">
+              <p class="text-slate-300 text-xs leading-relaxed">
+                Flanked by the raging Parvati River and dense coniferous woods. Gateway to the Kheerganga hot water
+                sulfur springs trek, Manikaran Sahib Gurudwara, and quaint villages like Tosh and Chalal.
+              </p>
+
+              <div class="space-y-1.5">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Key Highlights</span>
+                <div class="flex flex-wrap gap-1 text-[11px] text-slate-300">
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Kheerganga Trek</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Manikaran Sahib</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Chalal Bridge Walk</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Tosh Waterfall</span>
+                </div>
+              </div>
+
+              <div
+                class="flex justify-between items-center text-[11px] text-slate-400 pt-2 border-t border-slate-800/80">
+                <span>Best: Apr - Jun & Sep - Nov</span>
+                <span class="text-amber-400 font-semibold">Bohemian Riverside</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 8: bir billing -->
+
+        <div id="birbilling"
+          class="place-card bg-slate-900/80 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between hover:cursor-pointer"
+          data-category="adventure" data-keywords="bir billing paragliding aero kangra tea gardens tibetan sunset">
+          <div>
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+                alt="Bir Billing" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              <div class="absolute bottom-3 left-4">
+                <h3 class="font-serif text-2xl font-bold text-white">Bir Billing</h3>
+                <p class="text-xs text-cyan-300 font-medium">World's 2nd Highest Paragliding Take-Off</p>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-4">
+              <p class="text-slate-300 text-xs leading-relaxed">
+                Take off from Billing at 2,400m and float gracefully above emerald tea gardens to land in Bir. Famous
+                for Tibetan eco-villages, monasteries, cycling routes, and mind-blowing sunsets.
+              </p>
+
+              <div class="space-y-1.5">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Key Highlights</span>
+                <div class="flex flex-wrap gap-1 text-[11px] text-slate-300">
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Tandem Flight</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Chokling Gompa</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Billing Sunset Point</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Bir Tea Factory</span>
+                </div>
+              </div>
+
+              <div
+                class="flex justify-between items-center text-[11px] text-slate-400 pt-2 border-t border-slate-800/80">
+                <span>Best: Oct - Nov & Mar - Jun</span>
+                <span class="text-cyan-400 font-semibold">Aerial Thrill</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 9: jibhi  valley -->
+        <div id="jibhi"
+          class="place-card bg-slate-900/80 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between hover:cursor-pointer"
+          data-category="peaceful"
+          data-keywords="jibhi tirthan valley serolsar lake jalori pass unesco cedar trout waterfall">
+          <div>
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
+                alt="Jibhi" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              <div class="absolute bottom-3 left-4">
+                <h3 class="font-serif text-2xl font-bold text-white">Jibhi & Tirthan Valley</h3>
+                <p class="text-xs text-emerald-300 font-medium">Untouched Cedar Hideaways & Trout Streams</p>
+              </div>
+            </div>
+
+            <div class="p-6 space-y-4">
+              <p class="text-slate-300 text-xs leading-relaxed">
+                An unspoiled hidden gem with Victorian-style wooden cottages, gushing crystal streams, the mysterious
+                Serolsar Lake hike via Jalori Pass, and the UNESCO Great Himalayan National Park.
+              </p>
+
+              <div class="space-y-1.5">
+                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400">Key Highlights</span>
+                <div class="flex flex-wrap gap-1 text-[11px] text-slate-300">
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Jibhi Waterfalls</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Jalori Pass (3,120m)</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Serolsar Lake</span>
+                  <span class="bg-slate-800/80 px-2 py-0.5 rounded-md">Chehni Kothi</span>
+                </div>
+              </div>
+
+              <div
+                class="flex justify-between items-center text-[11px] text-slate-400 pt-2 border-t border-slate-800/80">
+                <span>Best: Mar - Jun & Sep - Nov</span>
+                <span class="text-emerald-400 font-semibold">Offbeat Calm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- table section of tour planning  -->
+
+
+  <section class="py-16 bg-slate-900 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-2xl mb-8">
+        <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Road Trip Planning</span>
+        <h2 class="font-serif text-3xl font-bold text-white mt-1">Inter-City Distance & Travel Matrix</h2>
+        <p class="text-slate-400 text-sm mt-1">Plan realistic driving hours between major Himachal destinations.</p>
+      </div>
+
+      <div class="overflow-x-auto bg-slate-900 border border-slate-800 rounded-3xl p-6">
+        <table class="w-full text-left text-xs text-slate-300">
+          <thead class="text-[11px] uppercase tracking-wider text-slate-400 border-b border-slate-800">
+            <tr>
+              <th class="py-3 px-4">From / To</th>
+              <th class="py-3 px-4">Dalhousie & Khajjiar</th>
+              <th class="py-3 px-4">Dharamshala</th>
+              <th class="py-3 px-4">Manali</th>
+              <th class="py-3 px-4">Shimla</th>
+              <th class="py-3 px-4">Spiti (Kaza)</th>
+            </tr>
+          </thead>
+          <tbody class="bg-slate-800/60 font-medium ">
+            <tr>
+              <td class="py-3 px-4 font-bold text-emerald-400">Pathankot (Base)</td>
+              <td class="py-3 px-4">80 km (2.5 hrs)</td>
+              <td class="py-3 px-4">85 km (2.5 hrs)</td>
+              <td class="py-3 px-4">290 km (8 hrs)</td>
+              <td class="py-3 px-4">320 km (9 hrs)</td>
+              <td class="py-3 px-4">490 km (14 hrs)</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-bold text-emerald-400">Dalhousie</td>
+              <td class="py-3 px-4 text-slate-700">— (Khajjiar: 22km)</td>
+              <td class="py-3 px-4">120 km (4 hrs)</td>
+              <td class="py-3 px-4">320 km (9 hrs)</td>
+              <td class="py-3 px-4">330 km (9.5 hr  s)</td>
+              <td class="py-3 px-4">520 km (15 hrs)</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-bold text-emerald-400">Dharamshala</td>
+              <td class="py-3 px-4">120 km (4 hrs)</td>
+              <td class="py-3 px-4 text-slate-600">—</td>
+              <td class="py-3 px-4">215 km (6.5 hrs)</td>
+              <td class="py-3 px-4">235 km (7 hrs)</td>
+              <td class="py-3 px-4">410 km (12 hrs)</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-bold text-emerald-400">Manali</td>
+              <td class="py-3 px-4">320 km (9 hrs)</td>
+              <td class="py-3 px-4">215 km (6.5 hrs)</td>
+              <td class="py-3 px-4 text-slate-600">—</td>
+              <td class="py-3 px-4">240 km (7.5 hrs)</td>
+              <td class="py-3 px-4">195 km (Atal Tunnel - 5.5 hrs)</td>
+            </tr>
+            <tr>
+              <td class="py-3 px-4 font-bold text-emerald-400">Chandigarh (Airport)</td>
+              <td class="py-3 px-4">310 km (7 hrs)</td>
+              <td class="py-3 px-4">245 km (5.5 hrs)</td>
+              <td class="py-3 px-4">270 km (6 hrs)</td>
+              <td class="py-3 px-4">110 km (3 hrs)</td>
+              <td class="py-3 px-4">440 km (13 hrs)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- fooetr section -->
+  <footer class="mt-auto bg-slate-950 border-t border-slate-800/80 pt-12 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-2 gap-8 mb-8  ">
+        
+        <div class="space-y-3">
+          <div class="font-serif text-2xl font-bold text-white">
+            Himachal<span class="text-emerald-400 font-sans text-sm ml-1">Tracker</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed text-left">
+            A specialized tour tracking and <br> destination vibe portal celebrating the <br>
+            beauty, peace, and culture of Himachal Pradesh.
+          </p>
+        </div>
+        <div>
+          <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-3">Emergency Helplines</h4>
+          <div class="space-y-2 text-xs text-slate-400 text-left">
+            <p><strong class="text-emerald-400">Police Helpline:</strong> 112</p>
+            <p><strong class="text-emerald-400">Medical SOS:</strong> 108</p>
+            <p><strong class="text-emerald-400">Disaster Cell:</strong> 1070 / 1077</p>
+             <p><strong class="text-emerald-400">Tourist Assistance:</strong> 1800-180-8077</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="border-t border-slate-900 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
+        <p>© 2026 Himachal Tour Tracker. Made with pure Tailwind CSS. Preserve Himalayan Ecology — Leave No Trace.</p>
+        <p class="text-emerald-400/80">Devbhoomi Himachal: Clean, Green & Sacred</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
