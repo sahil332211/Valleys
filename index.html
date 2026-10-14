@@ -9,8 +9,9 @@
   <link rel="stylesheet" href="/src/output.css">
 </head>
 
-<body>
-  <header class="sticky top-0 z-40 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80 transition-all">
+<body class="">
+  <header
+    class="overflow-hidden sticky top-0 z-40 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80 transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         <div
@@ -49,9 +50,9 @@
 
     <!-- Mobile Navigation Drawer -->
 <div id="mobile-menu"
-     class="md:hidden fixed top-0 right-0 z-50 h-screen w-72
+     class="md:hidden fixed inset-y-0 right-0 z-[9999] h-screen w-72 max-w-[85vw]
             bg-black overflow-y-auto
-            translate-x-full transition-transform duration-[2000ms] ease-in-out ">
+            translate-x-full transition-transform duration-500 ease-in-out">
 
     <button onclick="toggle()"
             class="block w-full text-left px-5 py-4 text-white">
@@ -151,17 +152,25 @@
 
             <div class="space-y-2">
               <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Great Vibes</div>
-              <div class="flex flex-wrap gap-1.5">
-                <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🌲
-                  Fresh Air & Fragrance</span>
-                <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">☕
-                  Dainkund Peak temple Chai</span>
-                <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🔔
-                  Church Bells</span>
-                <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">❄️
-                  Dainkund Snow</span>
-                <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">❄️
-                  Dainkund Peak Corn(ਮੱਕੀ (makki))</span>
+              <div class="flex">
+                <div class="flex flex-wrap gap-1.5">
+                  <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🌲
+                    Fresh Air & Fragrance</span>
+                  <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">☕
+                    Dainkund Peak temple Chai</span>
+                  <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🔔
+                    Church Bells</span>
+                  <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">❄️
+                    Dainkund Snow</span>
+                  <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">❄️
+                    Dainkund Peak Corn(ਮੱਕੀ (makki))</span>
+                </div>
+                <div class=" pt-10">
+                  <a href="Dailhousie&khajjiar.html"
+                    class="  inline-flex w-fit whitespace-nowrap px-2 py-1 rounded-2xl bg-emerald-500 hover:bg-emerald-400 hover:border border-slate-500 text-slate-950 font-bold text-xs uppercase  transition-all ease-in-out duration-300">
+                    View More →
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -201,17 +210,26 @@
 
             <div class="space-y-2">
               <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Best Vibes</div>
-              <div class="flex flex-wrap gap-1.5">
-                <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🌱
-                  Natural Vibes</span>
-                <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🐎
-                  Horse Riding</span>
-                <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🪷
-                  Floating Grass Island</span>
-                <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🌲
-                  Kalatop Woods</span>
-                <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700"> 🌊Mini
-                  Lake</span>
+              <div class="flex">
+                <div class="flex flex-wrap gap-1.5">
+                  <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🌱
+                    Natural Vibes</span>
+                  <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🐎
+                    Horse Riding</span>
+                  <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🪷
+                    Floating Grass Island</span>
+                  <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">🌲
+                    Kalatop Woods</span>
+                  <span class="px-2.5 py-1 rounded-lg text-xs bg-slate-800 text-slate-200 border border-slate-700">
+                    🌊Mini
+                    Lake</span>
+                </div>
+                <div class=" pt-5">
+                  <a href="Dailhousie&khajjiar.html"
+                    class="  inline-flex w-fit whitespace-nowrap px-2 py-1 rounded-2xl bg-emerald-500 hover:bg-emerald-400 hover:border border-slate-500 text-slate-950 font-bold text-xs uppercase  transition-all ease-in-out duration-300">
+                    View More →
+                  </a>
+                </div>
               </div>
             </div>
           </div>
