@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Famous Places</title>
-   <link rel="icon" type="image/png" href="fav-icon-image.avif">
+   <link rel="icon" type="image/png" href="./imageF/fav-icon-image.avif">
   <link rel="stylesheet" href="./src/output.css">
 </head>
 
@@ -49,19 +49,39 @@
       </div>
     </div>
     
-             <!-- Mobile Navigation Drawer -->
-      <div id="mobile-menu" class="md:hidden relative">
-      <div class="absolute border w-full px-5 bg-black -top-20  ">   
-        <a href="index.html" class="block py-2 text-slate-300 hover:text-white border-b border-slate-900">Home & Tour
-          Tracker</a>
-          <a href="Famousplace.html" class="block py-2 text-slate-300 hover:text-white border-b border-slate-900">All Famous
-            Places</a>
-            <a href="Dailhousie&khajjiar.html"
-            class="block py-2 text-slate-300 hover:text-white  border-b border-slate-900">Dalhousie & Khajjiar</a>
-            <a href="guidelines.html" class="block py-2 text-slate-300 hover:text-white">Guidelines & Travel Advisory</a>
-          </div>
-    </div>
+        <!-- Mobile Navigation Drawer -->
+<div id="mobile-menu"
+     class="md:hidden fixed top-0 right-0 z-50 h-screen w-72
+            bg-black overflow-y-auto
+            translate-x-full transition-transform duration-[2000ms] ease-in-out ">
 
+    <button onclick="toggle()"
+            class="block w-full text-left px-5 py-4 text-white">
+        ☰ Close Menu
+    </button>
+
+    <div class="px-5">
+        <a href="index.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            Home & Tour Tracker
+        </a>
+
+        <a href="Famousplace.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            All Famous Places
+        </a>
+
+        <a href="Dailhousie&khajjiar.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            Dalhousie & Khajjiar
+        </a>
+
+        <a href="guidelines.html"
+           class="block py-3 text-slate-300 hover:text-white">
+            Guidelines & Travel Advisory
+        </a>
+    </div>
+</div>
 
   </header>
 
