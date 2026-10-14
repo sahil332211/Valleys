@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" href="fav-icon-image.avif">
   <link rel="stylesheet" href="/src/output.css">
 </head>
+
 <body>
   <header class="sticky top-0 z-40 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80 transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -18,36 +19,67 @@
             class="text-emerald-400 font-sans text-sm font-semibold tracking-wider ml-1 uppercase ">Tracker</span>
           <p class="text-[11px] text-emerald-400/80 font-medium tracking-wide">Devbhoomi Vibe Explorer</p>
         </div>
-        <nav class="hidden md:flex  items-center gap-1 bg-slate-900 p-1.5 rounded-full border border-slate-800  ">
-          <a href="./index.html"
-            class="px-5 py-2 rounded-full text-sm font-medium bg-emerald-500/30  text-emerald-300 hover:border border-emerald-500/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
-            Home
-          </a>
-          <a href="./Famousplace.html"
-            class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-emerald-300 hover:bg-emerald-700/30 transition-all hover:sm:text-emerald-600  hover:translate-y-1 duration-300 scale-95 ease-in">
-            All Famous Places
-          </a>
-          <a href="./Dailhousie&khajjiar.html"
-            class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-emerald-300 hover:bg-emerald-700/30 transition-all flex items-center gap-1.5 hover:translate-y-1 duration-300 scale-95 ease-in">
-            <span> Dalhousie & Khajjiar</span>
-          </a>
-          <a href="./guidelines.html"
-            class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-emerald-300 hover:bg-emerald-700/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
-            Guidelines & Safety
-          </a>
-        </nav>
+        <div>
+          <nav class="hidden md:flex  items-center gap-1 bg-slate-900 p-1.5 rounded-full border border-slate-800  ">
+            <a href="./index.html"
+              class="px-5 py-2 rounded-full text-sm font-medium bg-emerald-500/30  text-emerald-300 hover:border border-emerald-500/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
+              Home
+            </a>
+            <a href="./Famousplace.html"
+              class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-emerald-300 hover:bg-emerald-700/30 transition-all hover:sm:text-emerald-600  hover:translate-y-1 duration-300 scale-95 ease-in">
+              All Famous Places
+            </a>
+            <a href="./Dailhousie&khajjiar.html"
+              class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-emerald-300 hover:bg-emerald-700/30 transition-all flex items-center gap-1.5 hover:translate-y-1 duration-300 scale-95 ease-in">
+              <span> Dalhousie & Khajjiar</span>
+            </a>
+            <a href="./guidelines.html"
+              class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-emerald-300 hover:bg-emerald-700/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
+              Guidelines & Safety
+            </a>
+          </nav>
+          <div class="flex md:hidden">
+            <button class="text-white  p-2" onclick="toggle()">☰</button>
+          </div>
+        </div>
 
       </div>
     </div>
 
 
     <!-- Mobile Navigation Drawer -->
-    <div id="mobile-menu" class=" md:hidden sm:relative bg-slate-950/95 border-b border-slate-800 px-6 py-4 space-y-3">
-      <a href="index.html" class="block py-2 text-slate-300 hover:text-white border-b border-slate-900">Home & Tour Tracker</a>
-      <a href="Famousplace.html" class="block py-2 text-slate-300 hover:text-white border-b border-slate-900">All Famous Places</a>
-      <a href="Dailhousie&khajjiar.html" class="block py-2 text-emerald-400 font-semibold border-b border-slate-900">Dalhousie & Khajjiar</a>
-      <a href="guidelines.html" class="block py-2 text-slate-300 hover:text-white">Guidelines & Travel Advisory</a>
+<div id="mobile-menu"
+     class="md:hidden fixed top-0 right-0 z-50 h-screen w-72
+            bg-black overflow-y-auto
+            translate-x-full transition-transform duration-[2000ms] ease-in-out ">
+
+    <button onclick="toggle()"
+            class="block w-full text-left px-5 py-4 text-white">
+        ☰ Close Menu
+    </button>
+
+    <div class="px-5">
+        <a href="index.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            Home & Tour Tracker
+        </a>
+
+        <a href="Famousplace.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            All Famous Places
+        </a>
+
+        <a href="Dailhousie&khajjiar.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            Dalhousie & Khajjiar
+        </a>
+
+        <a href="guidelines.html"
+           class="block py-3 text-slate-300 hover:text-white">
+            Guidelines & Travel Advisory
+        </a>
     </div>
+</div>
 
 
   </header>
@@ -418,7 +450,7 @@
     </div>
   </footer>
 
-
+  <script src="./index.js"></script>
 </body>
 
 </html>

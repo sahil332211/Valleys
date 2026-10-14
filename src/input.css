@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@theme {
+    --animate-slide: slide 9s ease-in-out infinite;
+
+    @keyframes slide {
+        0%, 25% {
+            transform: translateX(0);
+        }
+
+        33%, 58% {
+            transform: translateX(-100%);
+        }
+
+        66%, 91% {
+            transform: translateX(-200%);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
