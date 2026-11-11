@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kasol & Parvati Valley | Bohemian Trails & Manikaran | Himachal Tracker</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter & Plus Jakarta Sans & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="./imageF/fav-icon-image.avif">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap" rel="stylesheet">
+  
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans selection:bg-emerald-500 selection:text-white min-h-screen flex flex-col">
+
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-40 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+
+         <!-- back button on mobile screen -->
+         <div class="text-3xl text-emerald-600 text-left hover:transform transition-all hover:translate-y-1 duration-300 lg:hidden sm:visible md:hidden">
+          <a href="Famousplace.html">
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+  <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+</svg>
+          </a>
+        </div>
+
+        <!-- Brand Logo -->
+         <div
+          class="font-serif text-2xl font-bold tracking-tight bg-gradient-to-r from-white to-cyan-600 bg-clip-text text-transparent animate-bounce">
+          Himachal<span
+            class="text-emerald-400 font-sans text-sm font-semibold tracking-wider ml-1 uppercase ">Tracker</span>
+          <p class="text-[11px] text-emerald-400/80 font-medium tracking-wide">Devbhoomi Vibe Explorer</p>
+        </div>
+
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-1 bg-slate-900/60 p-1.5 rounded-full border border-slate-800">
+          <a href="index.html" class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 transition-all">
+            Home 
+          </a>
+          <a href="Famousplace.html" class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 transition-all">
+            All Famous Places
+          </a>
+          <a href="kasol.html" class="px-5 py-2 rounded-full text-sm font-medium bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 transition-all flex items-center gap-1.5">
+            <span>Kasol & Parvati</span>
+          </a>
+          <a href="guidelines.html" class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 transition-all">
+            Guidelines & Safety
+          </a>
+        </nav>
+
+         <div class="flex md:hidden">
+            <button class="text-white  p-2" onclick="toggle()">☰</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+     <!-- Mobile Navigation Drawer -->
+<div id="mobile-menu"
+     class="md:hidden fixed inset-y-0 right-0 z-[9999] h-screen w-72 max-w-[85vw]
+            bg-black overflow-y-auto
+            translate-x-full transition-transform duration-[2000ms] ease-in-out">
+
+    <button onclick="toggle()"
+            class="block w-full text-left px-5 py-4 text-white">
+        ☰ Close Menu
+    </button>
+
+    <div class="px-5">
+        <a href="index.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            Home 
+        </a>
+
+        <a href="Famousplace.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            All Famous Places
+        </a>
+
+        <a href="Dailhousie&khajjiar.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            Dalhousie & Khajjiar
+        </a>
+
+        <a href="guidelines.html"
+           class="block py-3 text-slate-300 hover:text-white">
+            Guidelines & Safety
+        </a>
+    </div>
+</div>
+
+  <!-- HERO SECTION -->
+  <section class="relative py-16 lg:py-24 overflow-hidden">
+    <!-- Atmospheric Ambient Backgrounds -->
+    <div class="absolute inset-0 bg-gradient-to-b from-emerald-950/20 via-slate-950 to-slate-950"></div>
+    <div class="absolute top-0 right-10 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Left: Textual Introduction -->
+        <div class="lg:col-span-7 space-y-6">
+        
+
+          <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
+            Bohemian Magic of <span class="bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">Kasol</span> & Emerald Trails of <span class="bg-gradient-to-r from-cyan-400 to-sky-300 bg-clip-text text-transparent">Parvati Valley</span>
+          </h1>
+
+          <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+            Carved by the ferocious glacial torrent of the turquoise Parvati River in the Kullu highlands, Kasol is India's most famous bohemian backpacking sanctuary. Revered as "Mini Israel" for its Hebrew street signs, fresh shakshuka, and acoustic riverside camps, this forested gorge serves as the launchpad to sacred deodar forest footpaths like Chalal, the natural hot sulphur springs of Manikaran, fairy-tale timber hamlets like Tosh and Kalga, and the legendary alpine hot springs of Kheerganga.
+          </p>
+
+          <!-- Quick Metrics Bar -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+            <div class="bg-slate-900/80 border border-slate-800 p-3 rounded-2xl">
+              <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Base River</span>
+              <p class="text-lg font-bold text-white mt-0.5">Parvati</p>
+              <span class="text-[10px] text-emerald-400">Glacial tributary</span>
+            </div>
+         
+            <div class="bg-slate-900/80 border border-slate-800 p-3 rounded-2xl">
+              <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Best Season</span>
+              <p class="text-lg font-bold text-white mt-0.5">Mar - Jun</p>
+              <span class="text-[10px] text-amber-400">& Sep - Nov (Crisp Fall)</span>
+            </div>
+      
+          </div>
+
+
+        </div>
+
+        <!-- Right: Visual Dual Card -->
+        <div class="lg:col-span-5 relative">
+          
+          <!-- Stacked layered cards -->
+          <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl border border-slate-800 group">
+            <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80" 
+                 alt="Parvati River Kasol" 
+                 class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-4 left-4 right-4">
+              <h3 class="text-xl font-serif font-bold text-white mt-1">Roaring Parvati & Pine Woods</h3>
+              <p class="text-xs text-slate-300">White water crashing over granite boulders flanked by towering Himalayan deodars</p>
+            </div>
+          </div>
+
+          <!-- Bottom Secondary Card -->
+          <div class="mt-4 rounded-3xl overflow-hidden shadow-xl border border-slate-800/80 relative group">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" 
+                 alt="Tosh Village Snow Peaks" 
+                 class="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-4">
+              <h4 class="text-base font-serif font-bold text-white mt-0.5">Tosh Wooden Village & Snow Spire</h4>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BEAUTIFUL VIBE BREAKDOWN (Sensory Experience) -->
+  <section class="py-16 bg-slate-900/50 border-y border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Sensory Atmosphere</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1">The Unique Vibes You Will Feel</h2>
+        <p class="text-slate-400 text-sm mt-2">What draws globetrotters, hikers, and free spirits to Parvati Valley?</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Vibe 1 -->
+        <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-emerald-500/40 hover:translate-y-1 duration-300 ease-in-out hover:shadow-2xl hover:shadow-green-500/30 ">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            🌊
+          </div>
+          <h3 class="text-lg font-bold text-white">Glacial Roar of the Parvati River</h3>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+            The ceaseless, mesmerizing roar of turquoise glacial water surging over colossal granite boulders creates a natural white-noise meditation as you sit on sun-warmed river stones.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-emerald-400">
+            <span>Natural Sound</span>
+            <span class="font-medium">Surging Glacial White-Water</span>
+          </div>
+        </div>
+
+        <!-- Vibe 2 -->
+        <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-cyan-500/40  hover:translate-y-1 duration-300 ease-in-out hover:shadow-2xl hover:shadow-blue-500/30 ">
+          <div class="w-12 h-12 rounded-2xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            🎸
+          </div>
+          <h3 class="text-lg font-bold text-white">Acoustic Cafes & Israeli Shakshuka</h3>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+            Bohemian riverside cafes strung with fairy lights where travelers share stories over hot falafel platters, freshly brewed mint lemonade, and live acoustic guitar jams beside crackling wood stoves.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-cyan-400">
+            <span>Bohemian Spirit</span>
+            <span class="font-medium">Mini Israel Cafe Culture</span>
+          </div>
+        </div>
+
+        <!-- Vibe 3 -->
+        <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-amber-500/40 hover:translate-y-1 duration-300 ease-in-out hover:shadow-2xl hover:shadow-amber-500/30 ">
+          <div class="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            🌲
+          </div>
+          <h3 class="text-lg font-bold text-white">Pine Needle Trails & Cedar Aromatherapy</h3>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+            Walking across wooden footbridges onto soft dirt trails carpeted with brown pine needles, surrounded by towering centenarian deodars and wild mountain mint growing alongside bubbling streams.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-amber-400">
+            <span>Signature Smell</span>
+            <span class="font-medium">Wild Mint & Pine Resin</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAMOUS SPOTS IN KASOL & IMMEDIATE ENVIRONS -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">
+        Must-Visit Sights in & Around Kasol
+      </h2>
+      <p class="text-slate-400 text-sm mt-1 max-w-2xl">
+        Suspension footbridges, riverside pine groves, and colorful bohemian street markets.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        
+        <!-- Spot 1: Chalal Village Walk -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80" alt="Chalal Village Trail" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">1. Chalal Village Walk</h3>
+              <p class="text-[11px] text-emerald-300">Suspension Bridge & Riverside Cafes</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Cross the iconic swinging cable bridge over the churning Parvati River to enter a quiet footpath through tall deodars. Chalal is famed for its relaxed outdoor music cafes, apple orchards, and psychedelic artwork.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Hike: Gentle 1.5 km stroll</span>
+              <span class="text-emerald-400 font-semibold">Riverside Chill Spot</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 2: Parvati Riverfront & Pebble Beach -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.jdmagicbox.com/v2/comp/kullu/e3/9999p1902.1902.230908172757.t9e3/catalogue/parvati-river-view-point-kasol-kullu-tourist-attraction-P1aWfqfdI5.jpg" alt="Parvati Riverfront" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">2. Parvati River Pebble Beach</h3>
+              <p class="text-[11px] text-emerald-300">Glacial Water & Sun-Warmed Boulders</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Stretching directly along the edge of Old Kasol, smooth white quartzite boulders and crystal clear glacial eddies invite travelers to sit for hours with a book, sunbathing under the alpine sun.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Location: Behind Main Kasol Market</span>
+              <span class="text-emerald-400 font-semibold">Meditative Riverfront</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 3: Nature Park Kasol -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://media1.thrillophilia.com/filestore/c2gqnqm987ek20u5gz2pfnjtkpbo_Nature%20Park%20.jpeg" alt="Nature Park Kasol" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">3. Nature Park Kasol</h3>
+              <p class="text-[11px] text-emerald-300">Quiet Shaded Woodland Enclave</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              A serene forest reserve sheltered between the road and river curve. Dotted with wooden canopies, rustic swings, and shaded walking paths where exotic Himalayan birds chirp in the canopy.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Activity: Forest Reading & Relaxing</span>
+              <span class="text-emerald-400 font-semibold">Birdwatching Haven</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 4: Israeli Quarter & Flea Market -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1fnXd4o-zECcbID8Rqi8lmE662STM1T1Bh0gAittEpA&s=10" alt="Kasol Market" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">4. Kasol Flea Market</h3>
+              <p class="text-[11px] text-emerald-300">Hemp Crafts, Silver & Woolen Ponchos</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              The vibrant bazaar lanes of Kasol brim with authentic hemp backpacks, dreamcatchers, chillums, handmade silver rings, woolen Himachali caps, and aroma-filled artisanal bakeries.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Shopping: Hemp Products & Woolens</span>
+              <span class="text-emerald-400 font-semibold">Bohemian Souvenirs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 5: Katagla Village -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKTp2oSre8irPBOKPHcnlyi1-No6GoSpVS54Oj4w52G7cuj-LoJzhoVM&s=10" alt="Katagla Village" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">5. Katagla Village Hideaway</h3>
+              <p class="text-[11px] text-emerald-300">Untouched Hamlet Across the River</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Located just 3 km downstream from Kasol, Katagla is reached via a narrow footbridge. Far less crowded than Kasol, it offers peaceful homestays, apple orchards, and secluded riverside bonfire spots.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Distance: 3 km from Kasol</span>
+              <span class="text-emerald-400 font-semibold">Quiet Homestay Haven</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 6: Grahan Village Trek -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwQJSzyhDi8Srv8ZoaS51UaDfW9WkaVfhfXi1RcnHLbw&s=10" alt="Grahan Village Trek" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">6. Grahan Village Trek</h3>
+              <p class="text-[11px] text-emerald-300">Pristine 200-Year-Old Timber Hamlet</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              A 9 km hike starting from Old Kasol climbing through virgin pine and rhododendron woods. Grahan has preserved traditional Kathkuni timber architecture and has strict community rules against alcohol.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Trek: 4 - 5 Hours (9 km)</span>
+              <span class="text-emerald-400 font-semibold">Traditional Kathkuni Homes</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAMOUS SPOTS IN PARVATI VALLEY WONDERS -->
+  <section class="py-16 bg-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">
+        Wonders of Manikaran, Tosh & Kheerganga
+      </h2>
+      <p class="text-slate-400 text-sm mt-1 max-w-2xl">
+        Sacred thermal springs, high alpine meadows, and fairytale wooden villages.-
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        
+        <!-- Parvati Spot 1: Manikaran Sahib -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://static.toiimg.com/thumb/105307305/Manikaran-Himachal-Pradesh.jpg?width=1200&height=900" alt="Manikaran Sahib Gurudwara" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">1. Manikaran Sahib & Hot Springs</h3>
+              <p class="text-[11px] text-cyan-300">Sacred Thermal Kunds on Parvati River</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Located 4 km upstream from Kasol. Famous for natural boiling sulphur springs where rice and lentils for the communal Gurudwara langar are cooked directly in the steaming waters. Revered by both Sikhs and Hindus.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Distance: 4 km from Kasol</span>
+              <span class="text-cyan-400 font-semibold">Healing Sulphur Baths</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Parvati Spot 2: Kheerganga Trek -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://thrilltourism.com/storage/1037/0IcXwO2jaDx7rFb1shwvUqOU1CNGbkYY8tJDmjRP.jpg" alt="Kheerganga Hot Springs" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">2. Kheerganga Hot Springs</h3>
+              <p class="text-[11px] text-cyan-300">Alpine Meadow Hot Spring Sanctuary</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              A legendary 12 km trek starting from Barshaini through roaring cascades and ancient woods. At the summit meadow, soak in natural hot water pools while gazing out over snow-covered peaks where Lord Shiva meditated.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Trek: 5 - 6 Hours from Barshaini</span>
+              <span class="text-cyan-400 font-semibold">Natural Mountain Hot Pool</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Parvati Spot 3: Tosh Village -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHIGiDKl1U2shVtSb5OtesC1frwx_ONpAazZy9N916Sg&s=10" alt="Tosh Village" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">3. Tosh Village & Waterfall</h3>
+              <p class="text-[11px] text-cyan-300">Wooden Village on High Mountain Cliff</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Perched at the far edge of the Tosh River valley, this traditional wooden settlement offers postcard-perfect views of the Tosh Glacier and snow-capped peaks. A gentle walk leads to a picturesque hidden waterfall.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Distance: 20 km from Kasol</span>
+              <span class="text-cyan-400 font-semibold">Panoramic Snowfield Views</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Parvati Spot 4: Malana Village -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh0hsROZdOAeSSfa64WpFCtMzdgyHM__WYxNOpxbNdSw&s=10" alt="Malana Village" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">4. Malana Village</h3>
+              <p class="text-[11px] text-cyan-300">World's Oldest Living Democracy</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              An ancient, isolated mountain enclave believed to be descendants of Alexander the Great's army. Governed by their unique parliamentary system under deity Jamlu Rishi, with strict taboos on touching outsiders.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Hike: 1.5 - 2 Hours from Jari</span>
+              <span class="text-cyan-400 font-semibold">Ancient Indigenous Customs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Parvati Spot 5: Kalga & Pulga -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhh7NwhRA9Rn4tG5rRfT2y41GzglupjSfNhRM09G3GGQ&s=10" alt="Fairy Forest Pulga" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">5. Kalga, Pulga & Fairy Forest</h3>
+              <p class="text-[11px] text-cyan-300">Apple Orchard Hamlets & Moss Canopies</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Situated above Barshaini dam, Kalga and Pulga are peaceful car-free hamlets filled with apple orchards and wooden houses. Pulga's "Fairy Forest" is renowned for its moss-covered giant deodars and mystical silence.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Walk: 20 mins from Barshaini</span>
+              <span class="text-cyan-400 font-semibold">Moss-Draped Pine Silence</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Parvati Spot 6: Rasol Village Trek -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCweFOntsFG_Xa9YZT8EYyF-vx5bFt_5MTG0WzGNF7A&s=10" alt="Rasol Village Ridge" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">6. Rasol Village Ridge</h3>
+              <p class="text-[11px] text-cyan-300">Steep Ridge Trek with Valley Panoramas</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Starting from Chalal, this exhilarating 8 km trail climbs steeply up through rhododendrons and pines. The high-altitude village of Rasol offers 360-degree views across the entire depth of Parvati Valley.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Hike: 4 - 5 Hours Ascent</span>
+              <span class="text-cyan-400 font-semibold">360° Valley Panorama</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PERFECT 3-DAY ITINERARY -->
+  <section id="itinerary" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Handcrafted Journey</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1">The Ideal 3-Day Kasol & Parvati Itinerary</h2>
+        <p class="text-slate-400 text-sm mt-2">Planned to experience bohemian cafes, sacred hot springs, and high wooden villages.</p>
+      </div>
+
+      <div class="space-y-6">
+        
+        <!-- Day 1 -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row gap-6 items-start hover:border-emerald-500/30 transition-all">
+          <div class="px-5 py-3 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-bold text-xl shrink-0">
+            DAY 1
+          </div>
+          <div class="space-y-3 flex-1">
+            <h3 class="text-xl font-bold text-white">Arrival in Kasol, Parvati River Sunbathing & Chalal Trail</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Arrive in Kasol and settle into your riverside camp or wooden guesthouse. Spend the afternoon sitting on the quartzite river boulders listening to the roaring glacial rapids. In the late afternoon, cross the suspension footbridge to hike the 30-minute pine needle trail to Chalal village. Relax at an outdoor music cafe enjoying hot hummus and minted lemon tea.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Parvati Riverfront Relaxation</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Chalal Suspension Bridge Trail</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Riverside Bonfire & Acoustic Jam</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row gap-6 items-start hover:border-emerald-500/30 transition-all">
+          <div class="px-5 py-3 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 font-bold text-xl shrink-0">
+            DAY 2
+          </div>
+          <div class="space-y-3 flex-1">
+            <h3 class="text-xl font-bold text-white">Manikaran Sahib Sacred Thermal Baths & Tosh Village Cliff</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Drive 4 km to Manikaran Sahib. Take a dip in the sacred natural hot sulphur kunds and partake in the blessed Guru ka Langar cooked in thermal waters. In the afternoon, head further up the valley to Barshaini and continue to Tosh village (2,400m). Hike through its wooden alleys and visit the waterfall while admiring the towering snow peaks of Tosh Glacier.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Manikaran Thermal Springs</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Tosh Wooden Village Hike</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Tosh Glacier Panorama</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row gap-6 items-start hover:border-emerald-500/30 transition-all">
+          <div class="px-5 py-3 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold text-xl shrink-0">
+            DAY 3
+          </div>
+          <div class="space-y-3 flex-1">
+            <h3 class="text-xl font-bold text-white">Kalga Apple Orchards, Fairy Forest Walk & Flea Market</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Walk across the Barshaini dam to the peaceful car-free hamlet of Kalga, ringed by traditional apple trees. Stroll into Pulga's enchanted "Fairy Forest" to wander under moss-covered giant deodars. Return to Kasol in the evening to browse the lively flea market for handcrafted hemp accessories, silver jewelry, and savor freshly baked apple crumble before departure.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Kalga Apple Orchard Strolls</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Pulga Fairy Forest Canopies</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Kasol Flea Market Souvenirs</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LOCAL GASTRONOMY & VIBE FOODS -->
+  <section class="py-16 bg-slate-900/40 border-y border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-2xl mb-10">
+        <h2 class="font-serif text-3xl font-bold text-white mt-1">What to Eat in Kasol & Parvati Valley</h2>
+        <p class="text-slate-400 text-sm mt-1">Authentic Middle Eastern specialties and traditional mountain comfort food.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 ">
+        
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl hover:translate-y-1 duration-200 ease-in-out">
+          <div class="text-3xl mb-2">🍳</div>
+          <h4 class="font-bold text-white text-base">Authentic Israeli Shakshuka</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Poached eggs in a rich, bubbling sauce of tomatoes, bell peppers, garlic, and cumin, served with freshly baked warm pita and hummus.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl hover:translate-y-1 duration-200 ease-in-out">
+          <div class="text-3xl mb-2">🥟</div>
+          <h4 class="font-bold text-white text-base">Walnut Himachali Siddu</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Steamed fermented wheat bun filled with crushed local walnuts, poppy seeds, and roasted mountain spices, served with golden desi ghee.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl hover:translate-y-1 duration-200 ease-in-out">
+          <div class="text-3xl mb-2">🐟</div>
+          <h4 class="font-bold text-white text-base">Garlic Herb River Trout</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Fresh Himalayan brown trout caught from crystal mountain brooks, pan-seared with fresh garlic, rosemary, lemon, and olive oil.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl hover:translate-y-1 duration-200 ease-in-out">
+          <div class="text-3xl mb-2">🧆</div>
+          <h4 class="font-bold text-white text-base">Falafel Platter & Mint Tea</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Crispy chickpea falafel balls, creamy tahini, pickled olives, Israeli salad, and steaming cups of fresh mountain mint tea.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DESTINATION-SPECIFIC GUIDELINES -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-gradient-to-r from-emerald-950/40 via-slate-900 to-cyan-950/40 border border-emerald-500/20 rounded-3xl p-8 sm:p-10">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div class="space-y-3">
+            <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Travel Smart</span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">Guidelines for Kasol & Parvati Valley Trips</h3>
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-300">
+              <li class="flex items-center gap-2">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span><strong>River Safety Warning:</strong> The Parvati River has fierce, unpredictable undercurrents and freezing waters. Do not attempt to swim or wade onto slippery wet boulders.</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span><strong>Respect Local Taboos (Malana):</strong> In Malana, never touch villagers or temple walls; doing so incurs strict local penalties. Always ask permission before photographing people.</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span><strong>Preserve the Valley:</strong> Parvati Valley trails suffer from plastic waste. Strictly avoid littering; carry all wrappers and bottles back to authorized disposal bins.</span>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+<footer class="mt-auto bg-slate-950 border-t border-slate-800/80 pt-12 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 text-center md:grid-cols-2 gap-8 mb-8">
+
+        <div class="space-y-3">
+          <div class="font-serif text-2xl font-bold text-white">
+            Himachal<span class="text-emerald-400 font-sans text-sm ml-1">Tracker</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Spotlight on Kasol & Parvati Valley. Track your progress across Himachal's roaring river gorges, hot springs, and high alpine villages.
+          </p>
+        </div>
+
+      
+
+        <div>
+          <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-3">Emergency Helplines</h4>
+          <div class="space-y-1 text-xs text-slate-400">
+            <p><strong class="text-emerald-400">Manikaran Police Post:</strong> 01902-273812 / 112</p>
+            <p><strong class="text-emerald-400">Kullu Regional Hospital:</strong> 01902-222350</p>
+            <p><strong class="text-emerald-400">Kullu Disaster Cell:</strong> 1077</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="border-t border-slate-900 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
+        <p>© 2026 Himachal Tour Tracker. Preserve Himalayan Ecology — Leave No Trace.</p>
+        <div class="flex gap-4">
+          <a href="index.html" class="hover:text-emerald-400">Home</a>
+          <a href="Famousplace.html" class="hover:text-emerald-400">All Places</a>
+          <a href="guidelines.html" class="hover:text-emerald-400">Guidelines</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script src="index.js"></script>
+</body>
+</html>

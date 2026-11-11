@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manali & Solang Valley | Snow Peaks & Adventure Hub | Himachal Tracker</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter & Plus Jakarta Sans & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="./imageF/fav-icon-image.avif">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap" rel="stylesheet">
+  
+ 
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans selection:bg-emerald-500 selection:text-white min-h-screen flex flex-col">
+
+ 
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-40 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+
+        <div class="text-3xl text-emerald-600 text-left hover:transform transition-all hover:translate-y-1 duration-300 lg:hidden sm:visible md:hidden">
+          <a href="Famousplace.html">
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+  <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+</svg>
+          </a>
+        </div>
+        <!-- Brand Logo -->
+        <div
+          class="font-serif text-2xl font-bold tracking-tight bg-gradient-to-r from-white to-cyan-600 bg-clip-text text-transparent animate-bounce">
+          Himachal<span
+            class="text-emerald-400 font-sans text-sm font-semibold tracking-wider ml-1 uppercase ">Tracker</span>
+          <p class="text-[11px] text-emerald-400/80 font-medium tracking-wide">Devbhoomi Vibe Explorer</p>
+        </div>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-1 bg-slate-900/60 p-1.5 rounded-full border border-slate-800">
+          <a href="index.html" class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 transition-all">
+            Home 
+          </a>
+          <a href="Famousplace.html" class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 transition-all">
+            All Famous Places
+          </a>
+          <a href="manali-solang.html" class="px-5 py-2 rounded-full text-sm font-medium bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 transition-all flex items-center gap-1.5">
+            <span>Manali & Solang</span>
+          </a>
+          <a href="guidelines.html" class="px-5 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 transition-all">
+            Guidelines & Safety
+          </a>
+        </nav>
+         <div class="flex md:hidden">
+            <button class="text-white  p-2" onclick="toggle()">☰</button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </header>
+
+     <!-- Mobile Navigation Drawer -->
+<div id="mobile-menu"
+     class="md:hidden fixed inset-y-0 right-0 z-[9999] h-screen w-72 max-w-[85vw]
+            bg-black overflow-y-auto
+            translate-x-full transition-transform duration-[2000ms] ease-in-out">
+
+    <button onclick="toggle()"
+            class="block w-full text-left px-5 py-4 text-white">
+        ☰ Close Menu
+    </button>
+
+    <div class="px-5">
+        <a href="index.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            Home 
+        </a>
+
+        <a href="Famousplace.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            All Famous Places
+        </a>
+
+        <a href="Dailhousie&khajjiar.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            Dalhousie & Khajjiar
+        </a>
+
+        <a href="guidelines.html"
+           class="block py-3 text-slate-300 hover:text-white">
+            Guidelines & Safety
+        </a>
+    </div>
+</div>
+
+  <!-- HERO SECTION -->
+  <section class="relative py-16 lg:py-24 overflow-hidden">
+    <!-- Atmospheric Ambient Backgrounds -->
+    <div class="absolute inset-0 bg-gradient-to-b from-emerald-950/20 via-slate-950 to-slate-950"></div>
+    <div class="absolute top-0 right-10 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Left: Textual Introduction -->
+        <div class="lg:col-span-7 space-y-6">
+         
+
+          <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
+            Roaring Waters of <span class="bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">Manali</span> & Snowy Glades of <span class="bg-gradient-to-r from-cyan-400 to-sky-300 bg-clip-text text-transparent">Solang Valley</span>
+          </h1>
+
+          <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+            Nestled under the majestic Pir Panjal and Dhauladhar ranges along the glacial Beas River, Manali is Himachal's premier mountain paradise. From the tranquil 16th-century wooden pagodas and bohemian Old Manali lanes to the high-adrenaline snow arenas of Solang Valley and the marvel of the Atal Tunnel, this valley offers an intoxicating blend of heritage and alpine thrill.
+          </p>
+
+          <!-- Quick Metrics Bar -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+            <div class="bg-slate-900/80 border border-slate-800 p-3 rounded-2xl">
+              <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Distance Apart</span>
+              <p class="text-lg font-bold text-white mt-0.5">14 KM</p>
+              <span class="text-[10px] text-emerald-400">Valley highway drive</span>
+            </div>
+            
+            <div class="bg-slate-900/80 border border-slate-800 p-3 rounded-2xl">
+              <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Best Season</span>
+              <p class="text-lg font-bold text-white mt-0.5">Oct - Jun</p>
+              <span class="text-[10px] text-amber-400">& Dec - Feb (Snow)</span>
+            </div>
+          
+          </div>
+
+        
+
+        </div>
+
+        <!-- Right: Visual Dual Card -->
+        <div class="lg:col-span-5 relative">
+          
+          <!-- Stacked layered cards -->
+          <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl border border-slate-800 group">
+            <img src="https://images.unsplash.com/photo-1593181629936-11c609b8db9b?auto=format&fit=crop&w=800&q=80" 
+                 alt="Solang Valley Snow Glade" 
+                 class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-4 left-4 right-4">
+              <h3 class="text-xl font-serif font-bold text-white mt-1">Solang's Snowy Amphitheatre</h3>
+              <p class="text-xs text-slate-300">Epic ski slopes, soaring paragliders, and breathtaking glacier panoramas</p>
+            </div>
+          </div>
+
+          <!-- Bottom Secondary Card -->
+          <div class="mt-4 rounded-3xl overflow-hidden shadow-xl border border-slate-800/80 relative group">
+            <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80" 
+                 alt="Hadimba Pine Woods" 
+                 class="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-4">
+              <h4 class="text-base font-serif font-bold text-white mt-0.5">Hadimba Temple & Dhungri Sanctuary</h4>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BEAUTIFUL VIBE BREAKDOWN (Sensory Experience) -->
+  <section class="py-16 bg-slate-900/50 border-y border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Sensory Atmosphere</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1">The Unique Vibes You Will Feel</h2>
+        <p class="text-slate-400 text-sm mt-2">What gives Manali and Solang their unforgettable mountain magic?</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Vibe 1 -->
+        <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-emerald-500/40 hover:translate-y-1 hover:shadow-2xl hover:shadow-green-500/30 duration-300 ease-in-out">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            🌲
+          </div>
+          <h3 class="text-lg font-bold text-white">Ancient Deodar Woods & Beas River Roar</h3>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+            The distinct scent of cedar sap and wild mountain thyme mingles with the thunderous roar of the glacial Beas River rushing over giant granite riverbeds in Old Manali.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-emerald-400">
+            <span>Signature Smell</span>
+            <span class="font-medium">Himalayan Cedar Resin & Mist</span>
+          </div>
+        </div>
+
+        <!-- Vibe 2 -->
+        <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-cyan-500/40  hover:translate-y-1 duration-300 ease-in-out hover:shadow-2xl hover:shadow-blue-500/30 ">
+          <div class="w-12 h-12 rounded-2xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            ❄️
+          </div>
+          <h3 class="text-lg font-bold text-white">Powder Snow Slopes & Atal Tunnel Magic</h3>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+            In Solang, crisp sub-zero winds billow through the ski bowl as colorful paragliders drift against the snow peaks. Crossing the Atal Tunnel transports you directly to Lahaul's rugged moonscapes.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-cyan-400">
+            <span>Visual Wonder</span>
+            <span class="font-medium">Pir Panjal Glaciers</span>
+          </div>
+        </div>
+
+        <!-- Vibe 3 -->
+        <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-amber-500/40 hover:translate-y-1 duration-300 ease-in-out hover:shadow-2xl hover:shadow-amber-500/30 ">
+          <div class="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            ☕
+          </div>
+          <h3 class="text-lg font-bold text-white">Old Manali Acoustic Cafes & Wood Ovens</h3>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+            As dusk settles, cobblestone lanes echo with live acoustic music. Cozy wooden cafes serve hot apple crumble, wood-fired thin crust pizzas, and spiced pahadi tea by roaring tandoors.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-amber-400">
+            <span>Evening Comfort</span>
+            <span class="font-medium">Bohemian Warmth & Live Music</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAMOUS SPOTS IN MANALI -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">
+        Must-Visit Sights in Manali
+      </h2>
+      <p class="text-slate-400 text-sm mt-1 max-w-2xl">
+        Ancient wooden temples, sacred thermal springs, and vibrant bohemian enclaves.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        
+        <!-- Spot 1: Hadimba Temple -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80" alt="Hadimba Devi Temple" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">1. Hadimba Devi Temple</h3>
+              <p class="text-[11px] text-emerald-300">Four-Tiered Pagoda in Cedar Woods</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Dedicated to Hadimba, wife of Pandava prince Bhima. Built by Raja Bahadur Singh, this exquisite wooden pagoda features intricate mythological carvings and deer antlers beneath giant deodars.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Location: Dhungri Forest (1.5 km)</span>
+              <span class="text-emerald-400 font-semibold">Heritage Pagoda Sanctuary</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 2: Old Manali Village -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbGWlCLKaRlK3sJq8WjCmPmqg2NPIxC70Xg4czSc_Odg&s=10" alt="Old Manali Village" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">2. Old Manali & Manu Temple</h3>
+              <p class="text-[11px] text-emerald-300">Traditional Kathkuni Homes & Cafes</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Cross the Manalsu bridge to enter an older world of slate roofs, apple orchards, and the historic Manu Temple—the only shrine in India dedicated to Sage Manu. Famous for artisanal bakeries and live music.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Vibe: Artsy, Relaxed, Scenic</span>
+              <span class="text-emerald-400 font-semibold">Manu Maharishi Temple</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 3: Jogini Waterfalls -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtdcG6WsP-cCcCPFYSYsTbBy5Ib4qyLkJ_0YILHzAUlg&s=10" alt="Jogini Waterfalls Trek" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">3. Jogini Waterfalls</h3>
+              <p class="text-[11px] text-emerald-300">Sacred Cascade Hike via Vashisht</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              A scenic 45-minute trek starting from Vashisht village through pine woods and apple groves. The pristine waterfall tumbles down multi-tiered rock faces with views of the snow-clad Rohtang peak.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Hike Duration: 1 - 1.5 Hours</span>
+              <span class="text-emerald-400 font-semibold">Apple Grove Trail</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 4: Vashisht Hot Springs -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv0_lE2Bnzxg6HkQ2iQJHl7S2mmcN8wkv8TWk8RYe-Dw&s=10" alt="Vashisht Temple Springs" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">4. Vashisht Hot Springs & Temple</h3>
+              <p class="text-[11px] text-emerald-300">4,000-Year-Old Sacred Village</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Perched on the cliffside of the Beas River, this ancient village is named after Sage Vashistha. Its natural geothermal hot water baths possess therapeutic minerals said to heal skin and muscle ailments.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Distance: 3 km from Mall Road</span>
+              <span class="text-emerald-400 font-semibold">Therapeutic Thermal Dip</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 5: Mall Road & Monasteries -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUsUDQx6CsJBqk9f94E4S00zWj5_b6xOLLdu1f8BHz4A&s=10" alt="Manali Mall Road & Gompa" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">5. Mall Road & Tibetan Gompas</h3>
+              <p class="text-[11px] text-emerald-300">Gadhan Thekchhokling Gompa</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              The bustling heart of town lined with woolen shawls, wooden handicrafts, and Himachali sweets. Behind the avenue stands the peaceful 1960 Tibetan monastery with vibrant thangkas and prayer wheels.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Shopping: Kullu Shawls & Honey</span>
+              <span class="text-emerald-400 font-semibold">Tibetan Thangka Art</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 6: Van Vihar Nature Park -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReFwcSaBYpcGNtntHgsbusTsj-ix9qREeCBBjPBTaFPw&s=10" alt="Van Vihar Deodar Park" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">6. Van Vihar Nature Park</h3>
+              <p class="text-[11px] text-emerald-300">Sky-Touching Deodars by Beas</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Located directly off the Mall Road, this serene forest of centenarian deodars extends down to the stony banks of the Beas River. Features a small boating pond and shaded walking trails.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Activity: Evening Strolls & Boating</span>
+              <span class="text-emerald-400 font-semibold">Peaceful Riverfront</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAMOUS SPOTS IN SOLANG & BEYOND -->
+  <section class="py-16 bg-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">
+        Wonders of Solang Valley & High Passes
+      </h2>
+      <p class="text-slate-400 text-sm mt-1 max-w-2xl">
+        Snow sports amphitheaters, engineering marvels, and glacial passes of the Pir Panjal.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        
+        <!-- Solang Spot 1: Solang Valley Adventure -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYqpuNZ3bvvlgAR1tdkizW_rNDoMCP0v2gI6OAR69hjg&s=10" alt="Solang Valley Slopes" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">1. Solang Adventure Arena</h3>
+              <p class="text-[11px] text-cyan-300">Skiing, Zorbing & Paragliding Hub</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              A high bowl surrounded by towering glaciers. In winter it transforms into India's premier skiing destination with ropeways; in summer, lush meadows host tandem paragliding, ATV rides, and zorbing.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Distance: 14 km from Manali</span>
+              <span class="text-cyan-400 font-semibold">Ropeway & Ski Slopes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solang Spot 2: Atal Tunnel & Sissu -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnmqkQNEjMylIpt1DOVZ6SP24uSrACZaSosLx_sTZJpA&s=10" alt="Atal Tunnel Highway" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">2. Atal Tunnel & Sissu Waterfall</h3>
+              <p class="text-[11px] text-cyan-300">Gateway to Lahaul Valley</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              The world's longest highway tunnel above 10,000 feet, boring straight through the Pir Panjal. Emerge at the North Portal into Lahaul to witness the roaring 50m Sissu Waterfall and willow groves.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Drive Time: 40 mins from Solang</span>
+              <span class="text-cyan-400 font-semibold">Engineering Triumph</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solang Spot 3: Anjani Mahadev -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBb1uhkhFPLYXoI7oVKH0qtwAud-beq3eyDmIWz9ONOw&s=10" alt="Anjani Mahadev" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">3. Anjani Mahadev</h3>
+              <p class="text-[11px] text-cyan-300">The "Amarnath of Himachal"</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              A 2 km trek from Solang leads to this sacred cliff where mother Anjani meditated. In peak winter, the cliff waterfall freezes solid into a colossal 30-40 foot natural ice Shiva lingam.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Hike: 45 min walk or horseback</span>
+              <span class="text-cyan-400 font-semibold">Natural Frozen Ice Spire</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solang Spot 4: Rohtang Pass -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgb6cl73vJdqGtjCAVuw4f52E7I7EitiWxFMX4dBprdQ&s=10" alt="Rohtang Pass Snow Peak" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">4. Rohtang Pass</h3>
+              <p class="text-[11px] text-cyan-300">The Crown Gateway to Leh-Ladakh</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              The iconic high mountain pass connecting Kullu to the stark Chandra and Spiti valleys. Offers jaw-dropping 360-degree vistas of perennial glaciers, craggy precipices, and pristine snow fields.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Permit: NGT Permit Required</span>
+              <span class="text-cyan-400 font-semibold">Glacier Snowfields</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solang Spot 5: Gulaba & Kothi -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKDF_chPaRSm2YPUf0yBG7ERsGmgrKMy9U6tgK9Y-3hA&s=10" alt="Gulaba Village Snow" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">5. Gulaba & Kothi Gorge</h3>
+              <p class="text-[11px] text-cyan-300">Deep Pine Glades & Snow Strolls</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Charming pastoral hamlets en route to Rohtang. Kothi is famous for its dramatic deep gorge carved by the Beas River, while Gulaba’s meadows are the filming backdrop of iconic Bollywood snow scenes.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Distance: 15 km on Rohtang Road</span>
+              <span class="text-cyan-400 font-semibold">Bollywood Landscape</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solang Spot 6: Hampta Pass Trailhead -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80" alt="Hampta Pass Prini" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">6. Hampta Pass Trail & Sethan</h3>
+              <p class="text-[11px] text-cyan-300">Buddhist Igloo Village & Crossover</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Rising above Prini village, the curvy road leads to Sethan (an authentic Buddhist village famous for winter igloo stays) and the trailhead of the dramatic Hampta Pass trek bridging green Kullu to desert Spiti.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Activity: Igloo Stays & Bouldering</span>
+              <span class="text-cyan-400 font-semibold">Crossover Trek Route</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PERFECT 3-DAY ITINERARY -->
+  <section id="itinerary" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1">The Ideal 3-Day Manali & Solang Itinerary</h2>
+        <p class="text-slate-400 text-sm mt-2">Expertly crafted for adrenaline, peaceful heritage, and cozy mountain evenings.</p>
+      </div>
+
+      <div class="space-y-6">
+        
+        <!-- Day 1 -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row gap-6 items-start hover:border-emerald-500/30 transition-all">
+          <div class="px-5 py-3 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-bold text-xl shrink-0">
+            DAY 1
+          </div>
+          <div class="space-y-3 flex-1">
+            <h3 class="text-xl font-bold text-white">Arrival, Hadimba Sanctuary & Old Manali Bohemian Trail</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Arrive in Manali and settle into your pine-facing hotel or cottage. Begin your afternoon with a walk through the deodars of Dhungri to seek blessings at the 1553 AD Hadimba Pagoda. Cross over the river bridge into Old Manali to explore Sage Manu's shrine, handmade craft stalls, and chill at a riverside cafe enjoying fresh trout and live guitar strums.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Hadimba Pagoda Temple</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Old Manali Cafes</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Van Vihar Evening Walk</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row gap-6 items-start hover:border-emerald-500/30 transition-all">
+          <div class="px-5 py-3 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 font-bold text-xl shrink-0">
+            DAY 2
+          </div>
+          <div class="space-y-3 flex-1">
+            <h3 class="text-xl font-bold text-white">Solang Valley Adventure & The Atal Tunnel Expedition</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Set out early for Solang Valley. Take the scenic cable car ropeway, try tandem paragliding, or snow tubing on the alpine glades. Continue driving north through the marvel of the 9.02 km Atal Tunnel to emerge into the dramatic barren mountains of Lahaul. Stop at Sissu to behold its thundering glacial waterfall before returning to Manali.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Solang Paragliding / Skiing</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Atal Tunnel North Portal</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Sissu Glacial Waterfall</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row gap-6 items-start hover:border-emerald-500/30 transition-all">
+          <div class="px-5 py-3 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold text-xl shrink-0">
+            DAY 3
+          </div>
+          <div class="space-y-3 flex-1">
+            <h3 class="text-xl font-bold text-white">Jogini Waterfall Trek, Vashisht Sulphur Bath & Mall Road</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Drive to Vashisht village. Take the exhilarating 45-minute trek through apple orchards up to the multi-tier Jogini Waterfalls. Return to dip your tired feet into the sacred thermal sulphur kunds of Vashisht. Spend your final evening strolling Mall Road, picking up authentic Kullu handloom shawls, organic wild honey, and savoring hot Himachali Siddu.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Jogini Cascade Trek</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Vashisht Geothermal Baths</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Kullu Shawl Souvenirs</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LOCAL GASTRONOMY & VIBE FOODS -->
+  <section class="py-16 bg-slate-900/40 border-y border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-2xl mb-10">
+        <h2 class="font-serif text-3xl font-bold text-white mt-1">What to Eat in Manali & Solang</h2>
+        <p class="text-slate-400 text-sm mt-1">Authentic mountain dishes and bohemian culinary treasures.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl hover:translate-y-1 duration-300 ease-in-out ">
+          <div class="text-3xl mb-2">🥟</div>
+          <h4 class="font-bold text-white text-base">Himachali Siddu</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Steamed fermented wheat dumplings stuffed with crushed walnuts, poppy seeds, and pahadi herbs, smothered in molten desi ghee.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl hover:translate-y-1 duration-300 ease-in-out ">
+          <div class="text-3xl mb-2">🐟</div>
+          <h4 class="font-bold text-white text-base">Pan-Fried River Trout</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Fresh Himalayan rainbow trout caught from the clean waters of the Beas and Haripur, lightly shallow-fried in garlic herb butter.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl hover:translate-y-1 duration-300 ease-in-out ">
+          <div class="text-3xl mb-2">🍲</div>
+          <h4 class="font-bold text-white text-base">Kullu Dham Feast</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Traditional festive thali cooked in copper degs: Chana Madra, Telia Mah, Khatta, and sweet rice served on leaf platters.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl hover:translate-y-1 duration-300 ease-in-out ">
+          <div class="text-3xl mb-2">🥧</div>
+          <h4 class="font-bold text-white text-base">Warm Apple Crumble</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Made from freshly harvested Kullu valley apples, baked with cinnamon, brown sugar, and served with vanilla ice cream in Old Manali.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DESTINATION-SPECIFIC GUIDELINES -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-gradient-to-r from-emerald-950/40 via-slate-900 to-cyan-950/40 border border-emerald-500/20 rounded-3xl p-8 sm:p-10">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div class="space-y-3">
+            <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Travel Smart</span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">Guidelines for Manali & Solang Trips</h3>
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-300">
+              <li class="flex items-center gap-2">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span><strong>Rohtang Permits:</strong> Visiting Rohtang Pass strictly requires an online National Green Tribunal (NGT) permit. Book 2-3 days in advance.</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span><strong>Atal Tunnel Safety:</strong> Speed limits inside the 9km tunnel are strictly monitored (max 60 km/h). Stopping or overtaking inside is strictly prohibited.</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span><strong>Winter Snow Gear:</strong> In winter, hire 4x4 vehicles with tire chains for driving up beyond Solang Valley or toward Sethan to prevent skidding.</span>
+              </li>
+            </ul>
+          </div>
+         
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+    <footer class="mt-auto bg-slate-950 border-t border-slate-800/80 pt-12 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 text-center md:grid-cols-2 gap-8 mb-8">
+        
+        <div class="space-y-3">
+          <div class="font-serif text-2xl font-bold text-white">
+            Himachal<span class="text-emerald-400 font-sans text-sm ml-1">Tracker</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Spotlight on Manali & Solang Valley. Track your progress across Himachal's highest peaks, roaring rivers, and adventure playgrounds.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-3">Emergency Helplines</h4>
+          <div class="space-y-1 text-xs text-slate-400">
+            <p><strong class="text-emerald-400">Manali Police:</strong> 01902-252320 / 112</p>
+            <p><strong class="text-emerald-400">Civil Hospital:</strong> 01902-252315</p>
+            <p><strong class="text-emerald-400">Kullu Disaster Cell:</strong> 1077</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="border-t border-slate-900 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
+        <p>© 2026 Himachal Tour Tracker. Preserve Himalayan Ecology — Leave No Trace.</p>
+        <div class="flex gap-4">
+          <a href="index.html" class="hover:text-emerald-400">Home</a>
+          <a href="Famousplace.html" class="hover:text-emerald-400">All Places</a>
+          <a href="guidelines.html  " class="hover:text-emerald-400">Guidelines</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script src="index.js"></script>
+</body>
+</html>

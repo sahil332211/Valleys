@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spiti Valley | Cold Desert Monasteries & Chandratal | Himachal Tracker</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter & Plus Jakarta Sans & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" href="./imageF/fav-icon-image.avif">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap" rel="stylesheet">
+  
+
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans selection:bg-emerald-500 selection:text-white min-h-screen flex flex-col">
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-40 backdrop-blur-xl bg-slate-950/80 border-b border-slate-800/80 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+
+         <!-- back button on mobile screen -->
+         <div class="text-3xl text-emerald-600 text-left hover:transform transition-all hover:translate-y-1 duration-300 lg:hidden sm:visible md:hidden">
+          <a href="Famousplace.html">
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+  <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+</svg>
+          </a>
+        </div>
+
+        <!-- Brand Logo -->
+        <div
+          class="font-serif text-2xl font-bold tracking-tight bg-gradient-to-r from-white to-cyan-600 bg-clip-text text-transparent animate-bounce">
+          Himachal<span
+            class="text-emerald-400 font-sans text-sm font-semibold tracking-wider ml-1 uppercase ">Tracker</span>
+          <p class="text-[11px] text-emerald-400/80 font-medium tracking-wide">Devbhoomi Vibe Explorer</p>
+        </div>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center gap-1 bg-slate-900/60 p-1.5 rounded-full border border-slate-800">
+          <a href="index.html" class="px-5 py-2 rounded-full text-sm font-medium hover:bg-emerald-500/30  hover:text-emerald-300 hover:border border-emerald-500/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
+            Home 
+          </a>
+          <a href="Famousplace.html" class="px-5 py-2 rounded-full text-sm font-medium hover:bg-emerald-500/30  hover:text-emerald-300 hover:border border-emerald-500/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
+            All Famous Places
+          </a>
+          <a href="spiti.html" class="px-5 py-2 rounded-full text-sm font-medium hover:bg-emerald-500/30  hover:text-emerald-300 hover:border border-emerald-500/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
+            <span>Spiti Valley</span>
+          </a>
+          <a href="guidelines.html" class="px-5 py-2 rounded-full text-sm font-medium hover:bg-emerald-500/30  hover:text-emerald-300 hover:border border-emerald-500/30 transition-all hover:translate-y-1 duration-300 scale-95 ease-in">
+            Guidelines & Safety
+          </a>
+        </nav>
+
+      <div class="flex md:hidden">
+            <button class="text-white  p-2" onclick="toggle()">☰</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+      <!-- Mobile Navigation Drawer -->
+<div id="mobile-menu"
+     class="md:hidden fixed inset-y-0 right-0 z-[9999] h-screen w-72 max-w-[85vw]
+            bg-black overflow-y-auto
+            translate-x-full transition-transform duration-[2000ms] ease-in-out">
+
+    <button onclick="toggle()"
+            class="block w-full text-left px-5 py-4 text-white">
+        ☰ Close Menu
+    </button>
+
+    <div class="px-5">
+        <a href="index.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            Home 
+        </a>
+
+        <a href="Famousplace.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            All Famous Places
+        </a>
+
+        <a href="Dailhousie&khajjiar.html"
+           class="block py-3 text-slate-300 hover:text-white border-b border-slate-900">
+            Dalhousie & Khajjiar
+        </a>
+
+        <a href="guidelines.html"
+           class="block py-3 text-slate-300 hover:text-white">
+            Guidelines & Safety
+        </a>
+    </div>
+</div>
+ 
+
+  <!-- HERO SECTION -->
+  <section class="relative py-16 lg:py-24 overflow-hidden">
+  
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Left: Textual Introduction -->
+        <div class="lg:col-span-7 space-y-6">
+          <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15]">
+            Cold Desert Majesty of <span class="bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">Spiti Valley</span> & Celestial Silence of <span class="bg-gradient-to-r from-cyan-400 to-sky-300 bg-clip-text text-transparent">Chandratal</span>
+          </h1>
+
+          <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+            Spiti, literally meaning "The Middle Land", is a mystical cold desert mountain wonderland isolated from the world by massive Himalayan walls. Perched along the braided turquoise Spiti River, this high plateau cradles thousand-year-old cliffside Buddhist gompas, ancient mud citadels, moon-like geological gorges, the world's highest inhabited settlements, and pristine starry skies of cosmic clarity.
+          </p>
+
+          <!-- Quick Metrics Bar -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2    ">
+            <div class="bg-slate-900/80 border border-slate-800 p-3 rounded-2xl">
+              <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Access Routes</span>
+              <p class="text-lg font-bold text-white mt-0.5">2 Corridors</p>
+              <span class="text-[10px] text-emerald-400">Shimla & Manali loops</span>
+            </div>
+            <div class="bg-slate-900/80 border border-slate-800 p-3 rounded-2xl">
+              <span class="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Best Season</span>
+              <p class="text-lg font-bold text-white mt-0.5">Jun - Oct</p>
+              <span class="text-[10px] text-amber-400">& Jan-Feb (White Spiti)</span>
+            </div>
+         
+          </div>
+
+        </div>
+
+        <!-- Right: Visual Dual Card -->
+        <div class="lg:col-span-5 relative">
+          
+          <!-- Stacked layered cards -->
+          <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl border border-slate-800 group">
+            <img src="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&w=800&q=80" 
+                 alt="Key Gompa Spiti Valley" 
+                 class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-4 left-4 right-4">
+              <h3 class="text-xl font-serif font-bold text-white mt-1">Key Monastery at 4,166m</h3>
+              <p class="text-xs text-slate-300">Dramatic multi-tiered fortress gompa crowning a cone hill over the Spiti River</p>
+            </div>
+          </div>
+
+          <!-- Bottom Secondary Card -->
+          <div class="mt-4 rounded-3xl overflow-hidden shadow-xl border border-slate-800/80 relative group">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" 
+                 alt="Chandratal Lake Crescent" 
+                 class="w-full h-44 object-cover group-hover:scale-105 transition-transform duration-700 ease-out">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-4">
+              <h4 class="text-base font-serif font-bold text-white mt-0.5">Chandratal — The Moon Lake</h4>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BEAUTIFUL VIBE BREAKDOWN (Sensory Experience) -->
+  <section class="py-16 bg-slate-900/50 border-y border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">Sensory Atmosphere</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1">The Unique Vibes You Will Feel</h2>
+        <p class="text-slate-400 text-sm mt-2">What makes Spiti an otherworldly experience beyond modern reality?</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Vibe 1 -->
+        <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-emerald-500/40 hover:translate-y-1 duration-300 ease-in-out hover:shadow-2xl hover:shadow-green-500/30 ">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            💨
+          </div>
+          <h3 class="text-lg font-bold text-white">Crisp Tibetan Winds & Prayer Flags</h3>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+            The wind howls softly across the barren brown canyons, carrying the flutter of thousands of lungta (prayer flags) strung across high suspension bridges, whispering Buddhist peace mantras to the skies.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-emerald-400">
+            <span>Atmospheric Sound</span>
+            <span class="font-medium">Fluttering Lungta & Wind Hum</span>
+          </div>
+        </div>
+
+        <!-- Vibe 2 -->
+        <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-cyan-500/40 transition-all  hover:translate-y-1 duration-300 ease-in-out hover:shadow-2xl hover:shadow-blue-500/30 ">
+          <div class="w-12 h-12 rounded-2xl bg-cyan-500/20 text-cyan-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            🌌
+          </div>
+          <h3 class="text-lg font-bold text-white">Bortle-1 Milky Way Cosmic Canopy</h3>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+            With zero light and air pollution at 4,000+ meters, the night sky transforms into a dazzling celestial highway where the Milky Way's galactic core stretches directly above your head in breathtaking 3D depth.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-cyan-400">
+            <span>Night Wonder</span>
+            <span class="font-medium">Galactic Core & Shooting Stars</span>
+          </div>
+        </div>
+
+        <!-- Vibe 3 -->
+        <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-amber-500/40 transition-all  hover:translate-y-1 duration-300 ease-in-out hover:shadow-2xl hover:shadow-amber-500/30 ">
+          <div class="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            🫖
+          </div>
+          <h3 class="text-lg font-bold text-white">Butter Tea & Juniper Smoke in Gompas</h3>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+            Inside centuries-old clay and mud prayer chambers, the sacred fragrance of wild juniper incense mingles with flickering yak butter lamps and the warming comfort of salted butter tea served by red-robed lamas.
+          </p>
+          <div class="mt-4 pt-3 border-t border-slate-800 flex items-center justify-between text-[11px] text-amber-400">
+            <span>Spiritual Aroma</span>
+            <span class="font-medium">Juniper Incense & Yak Butter</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAMOUS SPOTS: MONASTERIES & ANCIENT CITADELS -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">
+        Legendary Gompas & Heritage Fortresses
+      </h2>
+      <p class="text-slate-400 text-sm mt-1 max-w-2xl">
+        Millennia-old monastic citadels, clay murals, and spiritual seats perched on sheer cliffs.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        
+        <!-- Spot 1: Key Gompa -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?auto=format&fit=crop&w=600&q=80" alt="Key Gompa" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">1. Key Gompa (Kye Monastery)</h3>
+              <p class="text-[11px] text-emerald-300">11th-Century Fortress Monastery</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              The biggest and oldest monastery in Spiti. Built as a Pasada fortress on a conical rock hill, it houses precious thangkas, ancient manuscripts, and sacred musical trumpets. Serves delicious herbal tea to all visitors.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Distance: 14 km from Kaza</span>
+              <span class="text-emerald-400 font-semibold">Gelugpa Seat & Ancient Murals</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 2: Dhankar Monastery -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Dhankar Monastery Cliff" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">2. Dhankar Monastery & Fort</h3>
+              <p class="text-[11px] text-emerald-300">Cliffhanger Castle over River Confluence</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Literally meaning "Fort on a Cliff". Precariously perched on the edge of a razor-sharp 300m cliff overlooking the confluence of the Spiti and Pin rivers. Once the ancient capital of the rulers of Spiti.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Hike: 1 hr trek to Dhankar Lake</span>
+              <span class="text-emerald-400 font-semibold">Dramatic Cliff Architecture</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 3: Tabo Monastery -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80" alt="Tabo Monastery Mud" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">3. Tabo Monastery</h3>
+              <p class="text-[11px] text-emerald-300">The "Ajanta of the Himalayas"</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Over 1,030 years old, this mud-brick UNESCO World Heritage candidate preserves the purest Indo-Tibetan clay statues, life-sized bodhisattvas, and breathtaking 10th-century wall frescoes in 9 prayer temples.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Location: Tabo Village (48 km)</span>
+              <span class="text-emerald-400 font-semibold">1,000+ Year Mud Frescoes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 4: Kaza Old Town -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=600&q=80" alt="Kaza Town" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">4. Kaza & Spiti Riverbed</h3>
+              <p class="text-[11px] text-emerald-300">Commercial & Cultural Epicenter</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Divided into Kaza Khas (old town) and Kaza Soma (new township). Bustles with traveler cafes, handmade wool and yak cheese shops, Tibetan bakeries, and the world's highest retail fuel petrol pump.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Vibe: Traveler Hub & River Cafes</span>
+              <span class="text-emerald-400 font-semibold">Highest Petrol Station</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 5: Kungri Monastery -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="Kungri Monastery Pin Valley" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">5. Kungri Monastery (Pin Valley)</h3>
+              <p class="text-[11px] text-emerald-300">Seat of the Tantric Nyingmapa Order</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              The second oldest monastery in Spiti and the only one belonging to the Nyingmapa sect. Famous for dramatic sword dances performed during the annual Buchen festival in the dramatic red Pin Valley.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Location: Pin Valley</span>
+              <span class="text-emerald-400 font-semibold">Tantric Buddhist Traditions</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spot 6: Tangyud Monastery Komic -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://aguidetohimachal.com/wp-content/uploads/2025/06/Key-Monastery-Spiti-400x250.jpg" alt="Tangyud Monastery Komic" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">6. Tangyud Monastery</h3>
+              <p class="text-[11px] text-emerald-300">Among the World's Highest Gompas</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Belonging to the Sakya school, this fortified castle-like monastery stands sentinel over the extreme high-altitude village of Komic. Its central sanctum holds ancient stuffed wild animals and protective deities.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Location: Komic Village</span>
+              <span class="text-emerald-400 font-semibold">Extreme Altitude Sanctum</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAMOUS SPOTS: HIGH PASSES & NATURAL WONDERS -->
+  <section class="py-16 bg-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">
+        Wonders of Chandratal, Kunzum & High Villages
+      </h2>
+      <p class="text-slate-400 text-sm mt-1 max-w-2xl">
+        Turquoise glacial waters, celestial mountain passes, and the highest inhabited outposts on Earth.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        
+        <!-- Natural Spot 1: Chandratal Lake -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Chandratal Lake" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">1. Chandratal (The Moon Lake)</h3>
+              <p class="text-[11px] text-cyan-300">Crescent Turquoise Alpine Jewel</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Named for its crescent moon shape, this pristine Ramsar wetland lake shifts colors from emerald green to deep cobalt blue as sunlight dances on the surrounding scree slopes of the Chandra Bhaga range.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Trail: 1 km walk from parking</span>
+              <span class="text-cyan-400 font-semibold">Chandra Bhaga Panoramas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Natural Spot 2: Kunzum Pass -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="Kunzum Pass Temple" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">2. Kunzum Pass & Goddess Temple</h3>
+              <p class="text-[11px] text-cyan-300">Gateway Between Lahaul & Spiti</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              One of India's highest motorable passes. Travelers stop to complete a sacred clockwise circumambulation around the Kunzum Mata stupa. Offers awe-inspiring vistas of Bara-Shigri, the 2nd longest glacier in the Himalayas.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Season: Jun to Oct only</span>
+              <span class="text-cyan-400 font-semibold">Bara-Shigri Glacier Views</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Natural Spot 3: Hikkim Post Office -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=600&q=80" alt="Hikkim Post Office" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">3. Hikkim Post Office</h3>
+              <p class="text-[11px] text-cyan-300">World's Highest Operational Post Office</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Functioning since 1983 in a traditional stone and mud house, postal staff still hand-stamp and dispatch postcards sent by travelers across the world via foot couriers down to Kaza.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Activity: Send stamped postcards</span>
+              <span class="text-cyan-400 font-semibold">PIN Code: 172114</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Natural Spot 4: Komic Village -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=600&q=80" alt="Komic Village" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">4. Komic Village</h3>
+              <p class="text-[11px] text-cyan-300">World's Highest Motorable Settlement</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Meaning "Eye of a Snow Cock", this tiny whitewashed village with barely 150 residents is the highest village in the world connected by motorable road. Features the high-altitude Spiti Organic Farm Cafe.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Distance: 18 km from Kaza</span>
+              <span class="text-cyan-400 font-semibold">Highest Motorable Road</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Natural Spot 5: Langza & Golden Buddha -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=600&q=80" alt="Langza Buddha Statue" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">5. Langza & Golden Buddha</h3>
+              <p class="text-[11px] text-cyan-300">Fossil Village of the Tethys Sea</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Dominated by a colossal 1,000-year-old golden Buddha statue gazing towards the sacred snow pyramid of Chau Chau Kang Nilda. The village soil is rich in prehistoric marine ammonite fossils from the ancient Tethys Sea.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>View: Chau Chau Kang Nilda (6,303m)</span>
+              <span class="text-cyan-400 font-semibold">Prehistoric Marine Fossils</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Natural Spot 6: Pin Valley & Mudh -->
+        <div class="bg-slate-900/70 border border-slate-800 rounded-3xl overflow-hidden hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div class="relative h-48">
+            <img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=600&q=80" alt="Pin Valley Mudh" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+            <div class="absolute bottom-3 left-3">
+              <h3 class="font-serif text-lg font-bold text-white">6. Mudh Village & Pin Valley</h3>
+              <p class="text-[11px] text-cyan-300">Snow Leopard & Ibex Territory</p>
+            </div>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+            <p class="text-slate-300 text-xs leading-relaxed">
+              The last motorable outpost of the dramatic Pin Valley National Park. Surrounded by striking pink, green, and purple geological mountains, Mudh is the trailhead for the treacherous Bhaba and Pin-Parvati high pass treks.
+            </p>
+            <div class="text-[11px] text-slate-400 flex justify-between items-center pt-2 border-t border-slate-800">
+              <span>Fauna: Snow Leopard & Siberian Ibex</span>
+              <span class="text-cyan-400 font-semibold">Pink Mineral Mountains</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PERFECT 3-DAY ITINERARY -->
+  <section id="itinerary" class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1">The Ideal 3-Day Spiti Highlands Circuit</h2>
+        <p class="text-slate-400 text-sm mt-2">The premier central Kaza loop covering high gompas, highest post office, and lunar lakes.</p>
+      </div>
+
+      <div class="space-y-6">
+        
+        <!-- Day 1 -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row gap-6 items-start hover:border-emerald-500/30 transition-all">
+          <div class="px-5 py-3 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-bold text-xl shrink-0">
+            DAY 1
+          </div>
+          <div class="space-y-3 flex-1">
+            <h3 class="text-xl font-bold text-white">Kaza Base Arrival, Acclimatization & Key Gompa Twilight</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Arrive in Kaza (ensure gradual acclimatization if driving via Manali or Kinnaur). Rest during the morning and sip warm garlic soup. In the afternoon, drive 14 km along the Spiti riverbed to Key Monastery. Climb through the centuries-old mud stairs, spin ancient prayer wheels, and enjoy salted butter tea with monks while taking in the sunset over the valley.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Key Gompa Sunset</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Garlic Soup Acclimatization</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Kaza Market Cafes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row gap-6 items-start hover:border-emerald-500/30 transition-all">
+          <div class="px-5 py-3 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 font-bold text-xl shrink-0">
+            DAY 2
+          </div>
+          <div class="space-y-3 flex-1">
+            <h3 class="text-xl font-bold text-white">The World's Highest Circuit: Langza, Komic & Hikkim Post Office</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Ascend to Langza to view the majestic golden Buddha overlooking the 6,303m Chau Chau Kang Nilda peak. Search for ancient marine fossils along the scree. Drive to Komic (4,587m) to visit Tangyud Monastery, and end at Hikkim (4,400m) to hand-post written postcards from the highest post office on planet Earth.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Langza Golden Buddha</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Hikkim Postcard Dispatch</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Komic Highest Road</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row gap-6 items-start hover:border-emerald-500/30 transition-all">
+          <div class="px-5 py-3 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold text-xl shrink-0">
+            DAY 3
+          </div>
+          <div class="space-y-3 flex-1">
+            <h3 class="text-xl font-bold text-white">Dhankar Cliff Fortress, Pin Valley & Tabo 1,000-Year Mud Sanctum</h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Head downstream to Dhankar cliff monastery perched high over the confluence of the Spiti and Pin rivers. Hike up to Dhankar Lake if energy permits. Drive into the crimson canyons of Pin Valley to explore Kungri Monastery, then reach Tabo to marvel at the 996 AD UNESCO mud temples and intact millenarian bodhisattva frescoes.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Dhankar Razor Cliff Fort</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Tabo 996 AD Frescoes</span>
+              <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-300">Pin Valley Crimson Canyons</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LOCAL GASTRONOMY & VIBE FOODS -->
+  <section class="py-16 bg-slate-900/40 border-y border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-2xl mb-10 ">
+        <h2 class="font-serif text-3xl font-bold text-white mt-1">What to Eat in Spiti Valley</h2>
+        <p class="text-slate-400 text-sm mt-1">Traditional trans-Himalayan Tibetan recipes engineered for mountain stamina.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl  group hover:border-green-800 hover:translate-y-1 duration-300 ease-in-out">
+          <div class="text-3xl mb-2">🍞</div>
+          <h4 class="font-bold text-white text-base">Spitian Tingmo & Shaptak</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Soft steamed floral yeast bread rolls paired with fiery stir-fried mountain vegetables, paneer, or spiced mutton shaptak.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl group hover:border-green-800 duration-300 hover:translate-y-1 ease-in-out">
+          <div class="text-3xl mb-2">🍜</div>
+          <h4 class="font-bold text-white text-base">Hand-Pulled Thentuk</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Flat bite-sized hand-pulled noodles simmered in aromatic broth of garlic, mountain radishes, ginger, and local leafy greens.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl  group hover:border-green-800 duration-300 hover:translate-y-1 ease-in-out">
+          <div class="text-3xl mb-2">🥣</div>
+          <h4 class="font-bold text-white text-base">Tsampa & Yak Butter Tea</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Roasted Himalayan barley flour kneaded with salty churned yak butter tea (Po Cha). The ultimate endurance food of high lamas.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl  group hover:border-green-800 duration-300 hover:translate-y-1 ease-in-out">
+          <div class="text-3xl mb-2">🫐</div>
+          <h4 class="font-bold text-white text-base">Wild Seabuckthorn Tea</h4>
+          <p class="text-xs text-slate-400 mt-1">
+            Brewed from wild golden-orange thorny berries gathered on Spiti riverbeds, bursting with high vitamin C and oxygen boosters.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DESTINATION-SPECIFIC GUIDELINES -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-gradient-to-r from-emerald-950/40 via-slate-900 to-cyan-950/40 border border-emerald-500/20 rounded-3xl p-8 sm:p-10">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div class="space-y-3">
+            <span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">High Altitude Safety</span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">Guidelines for Spiti Valley Expeditions</h3>
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-300">
+              <li class="flex items-center gap-2">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span><strong>Acute Mountain Sickness (AMS):</strong> Acclimatize at lower altitudes (Kalpa or Narkanda) before sleeping in Kaza. Drink 4-5 liters of water daily; avoid rapid ascents.</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span><strong>Cash & Connectivity:</strong> ATMs in Kaza frequently run dry and digital payments often fail due to optical fiber cuts. Carry sufficient cash from Shimla or Manali.</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span><strong>Permits & Eco-Sanctity:</strong> Foreign nationals require Inner Line Permits (ILP) obtained via Reckong Peo or Kaza. Leave zero plastic and do not take ancient fossils out of Langza.</span>
+              </li>
+            </ul>
+          </div>    
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="mt-auto bg-slate-950 border-t border-slate-800/80 pt-12 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 text-center md:grid-cols-2 gap-8 mb-8">
+        
+        <div class="space-y-3">
+          <div class="font-serif text-2xl font-bold text-white">
+            Himachal<span class="text-emerald-400 font-sans text-sm ml-1">Tracker</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Spotlight on Spiti Valley & Chandratal. Track your progress across Himachal's highest passes, ancient gompas, and trans-Himalayan moonscapes.
+          </p>
+        </div>
+
+      
+        <div>
+          <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-3">Emergency Helplines</h4>
+          <div class="space-y-1 text-xs text-slate-400">
+            <p><strong class="text-emerald-400">Kaza Police Station:</strong> 01906-222253 / 112</p>
+            <p><strong class="text-emerald-400">Community Health Centre:</strong> 01906-222211</p>
+            <p><strong class="text-emerald-400">Lahaul-Spiti Disaster Cell:</strong> 1077</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="border-t border-slate-900 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-3">
+        <p>© 2026 Himachal Tour Tracker. Preserve Himalayan Ecology — Leave No Trace.</p>
+        <div class="flex gap-4">
+          <a href="index.html" class="hover:text-emerald-400">Home</a>
+          <a href="Famousplace.html" class="hover:text-emerald-400">All Places</a>
+          <a href="guidelines.html" class="hover:text-emerald-400">Guidelines</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script src="index.js"></script>
+</body>
+</html>
